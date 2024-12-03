@@ -57,6 +57,14 @@ appjail makejail \
 
 * `caddy_tag` (default: `13.4`): see [#tags](#tags).
 
+### Volumes
+
+| Name         | Owner | Group | Perm | Type | Mountpoint           |
+| ------------ | ----- | ----- | ---- | ---- | -------------------- |
+| caddy-config | 0     | 0     |  -   |  -   | /usr/local/etc/caddy |
+| caddy-data   | 0     | 0     |  -   |  -   | /var/db/caddy        |
+| caddy-logs   | 0     | 0     |  -   |  -   | /var/log/caddy       |
+
 ## Tags
 
 | Tag    | Arch    | Version        | Type   |
