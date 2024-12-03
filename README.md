@@ -18,6 +18,8 @@ Features:
 
 caddyserver.com
 
+<img src="https://imgur.com/3FV1v6e.png" alt="caddy logo" width="30%" height="auto">
+
 ## How to use this Makejail
 
 ```sh
