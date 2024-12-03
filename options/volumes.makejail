@@ -1,0 +1,3 @@
+OPTION volume=caddy-config mountpoint:/usr/local/etc/caddy owner:0 group:0
+OPTION volume=caddy-data mountpoint:/var/db/caddy owner:0 group:0
+OPTION volume=caddy-logs mountpoint:/var/log/caddy owner:0 group:0
