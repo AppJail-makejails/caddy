@@ -73,3 +73,7 @@ appjail makejail \
 | ------ | ------- | -------------- | ------ |
 | `13.4` | `amd64` | `13.4-RELEASE` | `thin` |
 | `14.1` | `amd64` | `14.1-RELEASE` | `thin` |
+
+## Acknowledgments
+
+* @tschettervictor: https://github.com/DtxdF/AppJail/issues/23
