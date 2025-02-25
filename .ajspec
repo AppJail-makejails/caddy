@@ -1,16 +1,17 @@
 tags+: 13.4
 13.4.arch: amd64
 13.4.name: "caddy"
-13.4.timestamp.amd64: 1738042739
-13.4.sum.amd64: 10d1ff330849fb353107781b04e9ac83dda5ccad7d23e3da19c1ba20bb78740b
-13.4.size.amd64: 45790047
+13.4.timestamp.amd64: 1740476287
+13.4.sum.amd64: 966b76f6bc1fcc40614c8370396386dbf09d29b251f650d2b52fd731e1148489
+13.4.size.amd64: 46348159
 13.4.source.amd64: "http://appjail.hpc.at/caddy/13.4-amd64-image.appjail"
 13.4.source.amd64+: "https://images.all101bsd.download/caddy/13.4-amd64-image.appjail"
 tags+: 14.2
 14.2.arch: amd64
 14.2.name: "caddy"
-14.2.timestamp.amd64: 1738042768
-14.2.sum.amd64: 3ce13421a3bc3a5c09c6f90cbb10021e8ffa0c6f71848b9e661c95d1f8ecf227
-14.2.size.amd64: 45623376
+14.2.timestamp.amd64: 1740476431
+14.2.sum.amd64: 9cdb1046335b8d8aaec736118d1b91d769f13e218586eb713505905382a954cb
+14.2.size.amd64: 45760981
 14.2.source.amd64: "http://appjail.hpc.at/caddy/14.2-amd64-image.appjail"
 14.2.source.amd64+: "https://images.all101bsd.download/caddy/14.2-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
