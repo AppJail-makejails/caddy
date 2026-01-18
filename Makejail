@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG caddy_tag=13.5
+ARG caddy_tag=14.3
 ARG caddy_ajspec=gh+AppJail-makejails/caddy
 
 FROM --entrypoint "${caddy_ajspec}" caddy:${caddy_tag}
