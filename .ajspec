@@ -1,14 +1,15 @@
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "caddy"
-14.3.timestamp.amd64: 1769661555
-14.3.sum.amd64: fbb0e142e4ac7ab84608858630643862c59217477ff98612fbd5949d64a835c7
-14.3.size.amd64: 48924681
+14.3.timestamp.amd64: 1771536808
+14.3.sum.amd64: 080f9fcb4ae49f3b44fef59fd715590ef7e9dc546fa7e7f6dd992fcbc9844152
+14.3.size.amd64: 49290059
 14.3.source.amd64: "http://appjail.hpc.at/caddy/14.3-amd64-image.appjail"
 tags+: 15
 15.arch: amd64
 15.name: "caddy"
-15.timestamp.amd64: 1769661788
-15.sum.amd64: d8bbccb10cd4f38077e3fc9fd9a5925c540eefef23af194d0c73eff67b2df194
-15.size.amd64: 220123026
+15.timestamp.amd64: 1771537131
+15.sum.amd64: ebc72f49431442402cfe8b0d317f0178cffcd1801e9cef53982d83b59fc8b607
+15.size.amd64: 220175958
 15.source.amd64: "http://appjail.hpc.at/caddy/15-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
