@@ -1,9 +1,5 @@
-INCLUDE options/options.makejail
+ARG caddy_from=ghcr.io/appjail-makejails/caddy
+ARG caddy_tag=latest
 
-ARG caddy_tag=14.3
-ARG caddy_ajspec=gh+AppJail-makejails/caddy
-
-FROM --entrypoint "${caddy_ajspec}" caddy:${caddy_tag}
-
-SYSRC caddy_enable=YES
-SERVICE caddy start
+OPTION overwrite=force
+OPTION from=${caddy_from}:${caddy_tag}

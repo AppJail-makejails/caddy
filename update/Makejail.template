@@ -1,9 +1,0 @@
-INCLUDE options/options.makejail
-
-ARG caddy_tag=%%TAG1%%
-ARG caddy_ajspec=gh+AppJail-makejails/caddy
-
-FROM --entrypoint "${caddy_ajspec}" caddy:${caddy_tag}
-
-SYSRC caddy_enable=YES
-SERVICE caddy start
