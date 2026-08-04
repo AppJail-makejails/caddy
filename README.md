@@ -138,7 +138,7 @@ If you prefer to use `appjail-director` to run your stack, here's a sample servi
 options:
   - virtualnet: ':<random> default'
   - nat:
-  - container: 'boot args:--pull'
+  - container: 'args:--pull'
 
 services:
   caddy:

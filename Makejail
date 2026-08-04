@@ -1,5 +1,6 @@
 ARG caddy_from=ghcr.io/appjail-makejails/caddy
 ARG caddy_tag=latest
 
+OPTION container=boot
 OPTION overwrite=force
 OPTION from=${caddy_from}:${caddy_tag}
