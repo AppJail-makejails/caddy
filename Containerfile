@@ -14,7 +14,7 @@ LABEL org.opencontainers.image.title="Caddy" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U caddy xcaddy; \
+    pkg install caddy xcaddy; \
     \
     if [ -z "${NO_PKGCLEAN}" ]; then \
         pkg clean -a; \
